@@ -1,0 +1,282 @@
+
+/*
+1 :focus: Evita que se marquen las cajas de texto al seleccionarse
+
+*/
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*FONTS*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Sheikah';
+    src: url(fonts/sheikah-complete.ttf); 
+}
+
+.fontSheikah {
+    font-family: Sheikah,Courier;
+}
+    
+@font-face {
+    font-family: 'Triforce';
+    src: url(fonts/Triforce.ttf); 
+}
+
+.fontTriforce {
+    font-family: Triforce,Courier;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*BODY/HEADER*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.cabeceraPrincipal{
+    width: 100%;
+    background-color: black;
+}
+
+.header{
+    width: 100%;
+    height: 2em 0;
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+}
+
+.heListL{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+.heListT{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.heLogo1{
+    width: 8em;
+    float: left;
+    clear: left;
+}
+
+.heTitulo{
+    font-family: Triforce,Courier;
+    text-align: center;
+    font-size: 260%;
+    color: white;
+    float: center;
+    clear: center;
+    position: relative;
+    margin: 1em 0 0 0;
+
+}
+
+.heLogo2{
+    width: 11em;
+    float: right;
+    clear: right;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*BODY/MAIN*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.mainPrincipal{
+    background: url(images/Sheikah_Symbol2.webp) center center no-repeat, 
+    url(images/SwordSheikah.jpg) left top no-repeat, 
+    url(images/SwordSheikah.jpg) right top no-repeat;
+    background-color: black;
+    background-size: 81em, 19em, 19em;
+}
+
+.main{ 
+    display: flex;
+    padding-bottom: 30px;
+    margin-left: 16%;
+    padding-top: 30px;
+}
+
+.mainInf{
+    color: #D8DFE8;
+    text-align: center;
+    font-size: 22px;
+}
+
+.ingresaMnesaje{
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 600px;
+    max-height: 600px; 
+    border: none;
+}
+
+.mainBtn{
+    display: flex;
+    margin-top: 1em;
+}
+
+.mainBtnEncriptar{
+    background-color: #0A3871;
+    color: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 3em;
+    width: 14em;
+    margin-right: 1em;
+}
+
+.mainBtnDesncriptar{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 3em;
+    width: 14em;
+}
+
+.mensajeEncriptado1{
+    margin: 1.7em 0 0 2em;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 240px;
+    max-height: 240px; 
+    border: none;
+}
+
+.mensajeEncriptado1:focus{
+    outline: none;
+}
+
+.mainBtnCopiar1{
+    margin: 0 0 2em 2em;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 3em;
+    width: 14em;
+}
+
+.mensajeEncriptado2{
+    margin: 0 0 0 2em;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 240px;
+    max-height: 240px; 
+    border: none;
+    background-image: url(images/Sheikah_Symbol1.webp);
+    background-size: 5em;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.mensajeEncriptado2:focus{
+    outline: none;
+}
+
+.mainBtnCopiar2{
+    margin: 0 0 0 2em;
+    font-family: Sheikah,Courier;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 3em;
+    width: 14em;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*BODY/FOTTER*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.footerPrincipal{
+    width: 100%;
+    background-color: black;
+}
+
+.footer{
+    width: 100%;
+    height: 2em 0;
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+}
+
+.fooListL{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+}
+
+.fooListT{
+    display: inline-block;
+    width: 79%;
+    vertical-align: top;
+}
+
+.fooLogo1{
+    width: 4em;
+    float: left;
+    clear: left;
+}
+
+.fooTitulo{
+    font-family: Triforce,Courier;
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    float: center;
+    clear: center;
+    position: relative;
+    margin: 1em 0 0 0;
+
+}
+
+.fooLogo2{
+    width: 4em;
+    float: right;
+    clear: right;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*MEDIAQUERY*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.prueba{
+    display: inline-block;
+}
+
+.prueba1{
+    display: inline-block;
+}
+
+.prueba2{
+    display: inline-block;
+}
+
+.prueba:hover{
+    color: red;
+    transition: 2s;
+}
+
+
+.prueba1:hover{
+    
+}
+
+.prueba2:hover{
+    color: red;
+    font-family: Sheikah,Courier;
+    transition: 2s;
+}
