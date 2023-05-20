@@ -31,30 +31,26 @@
                 <textarea minlength="20" maxlength="2000" placeholder="Ingrese el texto aquí" class="ingresaMnesaje"></textarea>
                 
                 <div class="mainBtn">
-                    <button class="mainBtnEncriptar">Encriptar</button>
-                    <button class="mainBtnDesncriptar">Desencriptar</button>
+                    <button class="mainBtnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="mainBtnDesncriptar" onclick="btnDesEncriptar()">Desencriptar</button>
                 </div>
     
             </section>
                 
             <section>
-                <textarea minlength="20" maxlength="2000" class="mensajeEncriptado1"></textarea>
+                <textarea minlength="20" maxlength="2000" class="mensajeEncriptado1" readonly></textarea>
     
                 <div class="mainBtn1">
-                    <button class="mainBtnCopiar1">Copiar</button>
+                    <button class="mainBtnCopiar1" onclick="copiarTexto1()">Copiar</button>
                 </div>
     
-                <textarea minlength="20" maxlength="2000" class="mensajeEncriptado2"></textarea>
+                <textarea minlength="20" maxlength="2000" class="mensajeEncriptado2" readonly></textarea>
     
                 <div class="mainBtn2">
-                    <button class="mainBtnCopiar2">Copiar</button>
+                    <button class="mainBtnCopiar2" onclick="copiarTexto2()">Copiar</button>
                 </div>
     
             </section>
-
-            <div>
-                <img src="images/Alfabeto Shieka1.png" alt="">
-            </div>
 
         </div>
 
@@ -69,5 +65,8 @@
         </ul>
 
     </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

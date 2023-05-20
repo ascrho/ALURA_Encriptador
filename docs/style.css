@@ -191,6 +191,7 @@
     background-size: 5em;
     background-position: right bottom;
     background-repeat: no-repeat;
+    font-family: Sheikah,Courier;
 }
 
 .mensajeEncriptado2:focus{
@@ -260,7 +261,6 @@
     clear: center;
     position: relative;
     margin: 1em 0 0 0;
-
 }
 
 .fooLogo2{
@@ -273,7 +273,7 @@
 /*MEDIAQUERY*/
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 1024px){
+@media only screen and (min-device-width: 360px) and (max-device-width: 1024px) {
 
     /*HEADER*/
     .heListL{
